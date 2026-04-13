@@ -1,0 +1,20 @@
+# Voice IME Dependencies
+# Core audio & STT
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# VAD (Silero VAD via PyTorch)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# LLM client (Ollama uses HTTP, no extra package needed)
+# ollama package is optional for convenience
+
+# Text injection
+pynput>=1.7.6
+pyperclip>=1.8.2
+
+# System tray
+pystray>=0.19.5
+Pillow>=10.0.0

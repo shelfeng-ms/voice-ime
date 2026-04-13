@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.venv
+env/
+build/
+dist/
+*.spec
+
+# Models (should be downloaded by setup)
+*.bin
+*.pt
+*.onnx
+*.task
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Config
+config.json
+logs/
